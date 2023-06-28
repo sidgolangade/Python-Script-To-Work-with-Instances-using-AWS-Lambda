@@ -1,4 +1,7 @@
-Demo Output For Testing Purpose
+---------------------------------------
+Demo Output For Testing Purposes
+---------------------------------------
+
 - The Lambda function code was changed and set the trigger schedule expression to rate(1 minute).
 - This resulted in stopping the instance after 1 minute of deploying the Lambda function.
 - After testing, change the Lambda function and triggers to original desired schedule (Weekends)
