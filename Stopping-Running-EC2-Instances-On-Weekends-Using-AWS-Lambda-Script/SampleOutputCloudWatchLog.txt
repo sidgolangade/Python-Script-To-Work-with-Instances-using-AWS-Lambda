@@ -1,0 +1,20 @@
+Demo Output For Testing Purpose
+- The Lambda function code was changed and set the trigger schedule expression to rate(1 minute).
+- This resulted in stopping the instance after 1 minute of deploying the Lambda function.
+- After testing, change the Lambda function and triggers to original desired schedule (Weekends)
+
+---------------------------------------
+Output from CloudWatch > Monitor > Logs
+---------------------------------------
+
+2023-06-28T12:47:11.580+01:00
+
+Copy
+INIT_START Runtime Version: python:3.10.v6	Runtime Version ARN: arn:aws:lambda:eu-west-1::runtime:0f80abdd26b996ca93c36c09d5c60922b3a879b12783b673b391b3f913d5ca3b
+INIT_START Runtime Version: python:3.10.v6 Runtime Version ARN: arn:aws:lambda:eu-west-1::runtime:0f80abdd26b996ca93c36c09d5c60922b3a879b12783b673b391b3f913d5ca3b
+
+2023-06-28T12:47:12.203+01:00
+
+Copy
+Stopped instances: i-07cc5150959c92d15
+Stopped instances: i-07cc5150959c92d15
