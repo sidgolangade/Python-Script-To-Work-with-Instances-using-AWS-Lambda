@@ -3,6 +3,7 @@ This repository contains a Python script that utilizes an AWS Lambda function to
 
 ## Prerequisites
 - Python 3.x 
+- AWS Lambda Role with "AmazonEC2FullAccess" policy to stop running EC2 Instances.
 
 ## Configuration
 To configure and deploy the AWS Lambda function:
@@ -14,6 +15,7 @@ To configure and deploy the AWS Lambda function:
 - Save and deploy the Lambda function.
 
 ## Usage
-The Lambda function will automatically execute on the configured schedule, stopping any running EC2 instances on weekends. You can check the CloudWatch Logs for the Lambda function to view the execution logs and verify the instances that were stopped.
+The Lambda function will automatically execute on the configured schedule, stopping any running EC2 instances on weekends. 
+Monitor the execution logs and verify the results of the script through the AWS CloudWatch Logs console.
 
 ### Refer to the Screenshots folder for more information.
